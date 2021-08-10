@@ -296,6 +296,7 @@ span.br {
 }
 .stepper .step.current {
   font-weight: 600;
+  color: #fff!important;
 }
 .stepper .step.current::before {
   color: #fff;
@@ -321,7 +322,7 @@ span.br {
 /*home*/
 .main-banner.home{
   min-height: 560px;
-  background: #342766 url(../images/banner-home.png) no-repeat center center;
+  background: #342766 url(assets/images/banner-home.png) no-repeat center center;
   background-size: cover;
 }
 .main-banner.home .title {
@@ -332,7 +333,7 @@ span.br {
 }
 .p-box{
   min-height: 520px;
-  background-image: url(../images/Waffle.png), url(../images/p-cake.png), url(../images/banner-prod.png);
+  background-image: url(assets/images/Waffle.png), url(assets/images/p-cake.png), url(assets/images/banner-prod.png);
   background-repeat: no-repeat;
   background-size: contain , 28%,cover;
   background-position: 115%, 16%, -20vh 53%;
@@ -358,33 +359,33 @@ span.br {
 }
 .sec-1 {
   color: #fff;
-  background: url(../images/b-1.svg) no-repeat center center;
+  background: url(assets/images/b-1.svg) no-repeat center center;
   min-width: 205px;
   text-align: left;
 }
 .sec-2 {
   color: #fff;
-  background: url(../images/b-2.svg) no-repeat center center;
+  background: url(assets/images/b-2.svg) no-repeat center center;
   min-width: 205px;
   text-align: left;
 }
 .sec-3 {
   color: #fff;
-  background: url(../images/b-3.svg) no-repeat center center;
+  background: url(assets/images/b-3.svg) no-repeat center center;
   min-width: 205px;
   text-align: left;
 }
 .sec-4 {
   color: #fff;
-  background: url(../images/b-4.svg) no-repeat center center;
+  background: url(assets/images/b-4.svg) no-repeat center center;
   min-width: 205px;
   text-align: left;
 }
 .cus{
-  background:#F4ECDB url(../images/quote.svg) no-repeat center center;
+  background:#F4ECDB url(assets/images/quote.svg) no-repeat center center;
 }
 .blog{
-  background:url(../images/bg-blog.svg) no-repeat center center;
+  background:url(assets/images/bg-blog.svg) no-repeat center center;
   background-size: cover;
 }
 .cus .img-thumbnail{
@@ -394,7 +395,7 @@ span.br {
 /*about us*/
 .main-banner.abt{
   min-height: 650px;
-  background: #342766 url(../images/banner-abt.png) no-repeat center center;
+  background: #342766 url(assets/images/banner-abt.png) no-repeat center center;
   background-size: cover;
 }
 .main-banner.abt .title {
@@ -636,7 +637,7 @@ Responsive
 
   .p-box {
     min-height: 520px;
-    background-image: url(../images/banner-prod.png);
+    background-image: url(assets/images/banner-prod.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: -20vh 53%;

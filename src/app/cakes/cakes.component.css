@@ -1,0 +1,9 @@
+.w-16{
+  display: inline-block;
+  width: 15%!important;
+}
+
+select{
+  background: transparent!important;
+  color: #fff!important;
+}

@@ -1,4 +1,28 @@
 <section class="main-banner home mb-5">
+  <ngb-carousel *ngIf="images">
+    <ng-template ngbSlide [pauseOnHover]="pauseOnHover">
+      <div class="picsum-img-wrapper">
+        <img class="w-100" src="assets/images/banner-home.png" alt="hoem banner">
+        <div class="container">
+          <div class="title">
+            <h1 class="fa-4x"><span class="txt-dyellow">We Serve</span> Fresh Every Day</h1>
+            <button class="btn custom-btn">Discover More</button>
+          </div>
+        </div>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img class="w-100" src="assets/images/banner-home.png" alt="hoem banner">
+        <div class="container">
+          <div class="title">
+            <h1 class="fa-4x"><span class="txt-dyellow">We Serve</span> Fresh Every Day</h1>
+            <button class="btn custom-btn">Discover More</button>
+          </div>
+        </div>
+      </div>
+    </ng-template>    
+  </ngb-carousel>
   <div class="container">
     <div class="title">
       <h1 class="fa-4x"><span class="txt-dyellow">We Serve</span> Fresh Every Day</h1>

@@ -321,10 +321,16 @@ span.br {
 }
 /*home*/
 
+.carousel-indicators li {
+  background-color: #F4ECDB;
+}
+.carousel-indicators .active {
+  background-color: #e5a766;
+}
 .main-banner.home {
+  margin-top: -40px;
   min-height: 560px;
-  background: #342766 url(assets/images/banner-home.png) no-repeat center center;
-  background-size: cover;
+  background: #fff;
 }
 .main-banner.home .title {
   top: 135px;
@@ -691,8 +697,24 @@ Responsive
     }
 
     .fa-4x {
-      font-size: 2.5em;
+      font-size: 2.2em;
     }
+
+    .carousel-control-next,
+    .carousel-control-prev {
+      display: none;
+    }
+    .main-banner.home {
+      margin-top: 0;
+      min-height: 310px;
+      background: #322563;
+    }
+      .main-banner.home .title {
+        top: 27px;
+        left: 15px;
+        transform: none;
+        text-align: left;
+      }
 
     .steps .step {
       display: inline-block;
@@ -732,5 +754,8 @@ Responsive
   @media (max-width:520px) {
     footer * {
       text-align: center;
+    }
+    .main-banner.home {
+      min-height: 180px;
     }
   }

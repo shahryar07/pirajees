@@ -18,6 +18,7 @@ import { StepDeliveryComponent } from './step-delivery/step-delivery.component';
 import { StepPaymentComponent } from './step-payment/step-payment.component';
 import { StepReivewComponent } from './step-reivew/step-reivew.component';
 import { AccountComponent } from './account/account.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -56,6 +57,7 @@ import { AccountComponent } from './account/account.component';
       {path: 'order/3', component: StepPaymentComponent},
       {path: 'order/4', component: StepReivewComponent},
     ]),
+    NgbModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

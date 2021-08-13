@@ -56,6 +56,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
       {path: 'order/2', component: StepDeliveryComponent},
       {path: 'order/3', component: StepPaymentComponent},
       {path: 'order/4', component: StepReivewComponent},
+      { path: '', redirectTo: '/home', pathMatch: 'full' },
     ]),
     NgbModule,
   ],
